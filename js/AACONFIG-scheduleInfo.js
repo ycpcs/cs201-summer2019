@@ -8,7 +8,7 @@ courseInfo.classPeriods = [
 	},
 	{
 		topic: new DoubleTopic("Lecture 2: Objects/References, Constructors, JUnit", "lectures/lecture02.html", "Lecture 3: JUnit, Arrays", "lectures/lecture03.html"),
-		reading: "2.1&ndash;2.3",
+		reading: "2.1&ndash;2.3, 3.1&ndash;3.9",
 		lab: new DoubleNumberedLab(2, "Coins class", 3, "Arrays")
 	},
 	{
