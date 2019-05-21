@@ -12,11 +12,6 @@ courseInfo.classPeriods = [
 		lab: new DoubleNumberedLab(2, "Coins class", 3, "Arrays")
 	},
 	{
-		topic: new Topic("Lecture 3: JUnit, Arrays", "lectures/lecture03.html"),
-		reading: "3.1&ndash;3.9",
-		lab: new NumberedLab(3, "Arrays")
-	},
-	{
 		topic: new Topic("Lecture 4: File I/O, Exceptions", "lectures/lecture04.html"),
 		reading: "2.5&ndash;2.6",
 		lab: new NumberedLab(4, "Text File I/O")
