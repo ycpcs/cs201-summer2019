@@ -7,9 +7,9 @@ courseInfo.classPeriods = [
 		lab: new NumberedLab(1, "Dog Years")
 	},
 	{
-		topic: new Topic("Lecture 2: Objects/References, Constructors, JUnit", "lectures/lecture02.html"),
+		topic: new DoubleTopic("Lecture 2: Objects/References, Constructors, JUnit", "lectures/lecture02.html", "Lecture 3: JUnit, Arrays", "lectures/lecture03.html"),
 		reading: "2.1&ndash;2.3",
-		lab: new NumberedLab(2, "Coins class")
+		lab: new DoubleNumberedLab(2, "Coins class", 3, "Arrays")
 	},
 	{
 		topic: new Topic("Lecture 3: JUnit, Arrays", "lectures/lecture03.html"),
