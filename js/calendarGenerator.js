@@ -183,7 +183,7 @@ function getLabString(lab, assignOnDate) {
     var today = new Date();
 
     if (isLab(lab) && (assignOnDate.getTime() < today.getTime() || PREPOPULATE)) {
-    	if (lab instanceof Lab || lab instanceof NumberedLab || lab instanceof NumberedLabNoFile) {
+    	if (lab instanceof NumberedLab) {
         	str = linkify(lab.title, lab.link);
     	} else if (lab instanceof DoubleNumberedLab) {
         	str = linkify(lab.title1, lab.link1);
