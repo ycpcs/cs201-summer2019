@@ -171,7 +171,8 @@ function getReadingString(reading) {
 function isLab(lab) {
     return (lab instanceof Lab)
         || (lab instanceof NumberedLab)
-        || (lab instanceof NumberedLabNoFile);
+        || (lab instanceof NumberedLabNoFile)
+        || (lab instanceof DoubleNumberedLab);
 }
 
 
@@ -182,7 +183,13 @@ function getLabString(lab, assignOnDate) {
     var today = new Date();
 
     if (isLab(lab) && (assignOnDate.getTime() < today.getTime() || PREPOPULATE)) {
-        str = linkify(lab.title, lab.link);
+    	if (lab instanceof Lab || lab instanceof NumberedLab || lab instanceof NumberedLabNoFile) {
+        	str = linkify(lab.title, lab.link);
+    	} else if (lab instanceof DoubleNumberedLab) {
+        	str = linkify(lab.title1, lab.link1);
+        	str += "<br>";
+        	str += linkify(lab.title2, lab.link2);
+    	}
     }
     return str;
 }
