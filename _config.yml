@@ -1,0 +1,4 @@
+coursename: "CS 201"
+baseurl: "/cs201-summer2019"
+markdown: kramdown
+highlighter: rouge
