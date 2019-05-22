@@ -9,7 +9,7 @@ var semesterInfo = {
     // Each break is specified by a startDate and an endDate.
     // For single-day breaks, the startDate and endDate are the same.
     vacationDates: [
-        //new VacationDays("Winter Vacation",    new Date("03/04/2019"),  new Date("03/10/2019")),
-        //new VacationDays("Spring Vacation",    new Date("04/18/2019"), new Date("04/22/2019")),
+        new VacationDays("Memorial Day",    new Date("05/27/2019"),  new Date("05/27/2019")),
+        new VacationDays("4th of July",    new Date("07/01/2019"), new Date("07/05/2019")),
     ]
 };

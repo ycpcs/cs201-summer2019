@@ -184,11 +184,17 @@ function getLabString(lab, assignOnDate) {
 
     if (isLab(lab) && (assignOnDate.getTime() < today.getTime() || PREPOPULATE)) {
     	if (lab instanceof NumberedLab) {
-        	str = linkify(lab.title, lab.link);
+        	str = linkify(lab.title1, lab.link1);
     	} else if (lab instanceof DoubleNumberedLab) {
         	str = linkify(lab.title1, lab.link1);
         	str += "<br>";
         	str += linkify(lab.title2, lab.link2);
+    	} else if (lab instanceof TripleNumberedLab) {
+        	str = linkify(lab.title1, lab.link1);
+        	str += "<br>";
+        	str += linkify(lab.title2, lab.link2);
+        	str += "<br>";
+        	str += linkify(lab.title3, lab.link3);
     	}
     }
     return str;
@@ -284,17 +290,16 @@ function printLabs(opts) {
             document.write("<td></td>");
         } else {
             document.write("<td>" + getLabString(calendar[i].lab, calendar[i].date) + "</td>");
-            if (calendar[i].lab.file) {
-            	document.write("<td>" + getFileString(calendar[i].lab.file) + "</td>");
-            } else if (calendar[i].lab.file1) {
-            	document.write("<td>");
-            	document.write(getFileString(calendar[i].lab.file1));
-            	if (calendar[i].lab.file2) {
-            		document.write("<br>");
-             		document.write(getFileString(calendar[i].lab.file2));
-           		}
-            	document.write("</td>");            
+            document.write("<td>" + document.write(getFileString(calendar[i].lab.file)); 
+            if (calendar[i].lab.file2) {
+            	document.write("<br>");
+            	document.write(getFileString(calendar[i].lab.file2));
             }
+            if (calendar[i].lab.file3) {
+            	document.write("<br>");
+             	document.write(getFileString(calendar[i].lab.file2));
+           	}
+            document.write("</td>");
         }
         document.write("</tr>");
     }
