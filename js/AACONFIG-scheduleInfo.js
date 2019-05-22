@@ -3,7 +3,7 @@
 courseInfo.classPeriods = [
 	{
 		topic: new TripleTopic("Lecture 1: Introduction, Primitive Java", "lectures/lecture01.html","Lecture 2: Objects/References, Constructors, JUnit", "lectures/lecture02.html", "Lecture 3: JUnit, Arrays", "lectures/lecture03.html"),
-		reading: "1.1&ndash;1.6 <br> 2.1&ndash;2.3 <br> 3.1&ndash;3.9",
+		reading: "1.1&ndash;1.6, 2.1&ndash;2.3, 3.1&ndash;3.9",
 		lab: new TripleNumberedLab(1, "Dog Years", 2, "Coins class", 3, "Arrays")
 	},
 	{

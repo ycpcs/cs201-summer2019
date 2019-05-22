@@ -172,7 +172,8 @@ function isLab(lab) {
     return (lab instanceof Lab)
         || (lab instanceof NumberedLab)
         || (lab instanceof NumberedLabNoFile)
-        || (lab instanceof DoubleNumberedLab);
+        || (lab instanceof DoubleNumberedLab)
+        || (lab instanceof TripleNumberedLab);
 }
 
 
@@ -290,7 +291,10 @@ function printLabs(opts) {
             document.write("<td></td>");
         } else {
             document.write("<td>" + getLabString(calendar[i].lab, calendar[i].date) + "</td>");
-            document.write("<td>" + document.write(getFileString(calendar[i].lab.file1))); 
+            document.write("<td>");
+            if (calendar[i].lab.file1) {
+            	document.write(getFileString(calendar[i].lab.file1));
+            } 
             if (calendar[i].lab.file2) {
             	document.write("<br>");
             	document.write(getFileString(calendar[i].lab.file2));
