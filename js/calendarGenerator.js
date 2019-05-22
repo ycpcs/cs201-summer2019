@@ -290,7 +290,7 @@ function printLabs(opts) {
             document.write("<td></td>");
         } else {
             document.write("<td>" + getLabString(calendar[i].lab, calendar[i].date) + "</td>");
-            document.write("<td>" + document.write(getFileString(calendar[i].lab.file))); 
+            document.write("<td>" + document.write(getFileString(calendar[i].lab.file1))); 
             if (calendar[i].lab.file2) {
             	document.write("<br>");
             	document.write(getFileString(calendar[i].lab.file2));
