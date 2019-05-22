@@ -288,10 +288,10 @@ function printLabs(opts) {
             	document.write("<td>" + getFileString(calendar[i].lab.file) + "</td>");
             } else if (calendar[i].lab.file1) {
             	document.write("<td>");
-            	document.write(getFileString(calendar[i].lab.file1);
+            	document.write(getFileString(calendar[i].lab.file1));
             	if (calendar[i].lab.file2) {
             		document.write("<br>");
-             		document.write(getFileString(calendar[i].lab.file2);
+             		document.write(getFileString(calendar[i].lab.file2));
            		}
             	document.write("</td>");            
             }
