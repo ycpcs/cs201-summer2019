@@ -196,8 +196,15 @@ function getLabString(lab, assignOnDate) {
 
 
 function getFileString(file) {
-    if (!file) { return "n/a"; }
-    return linkify(file, file);
+    if (file) {return linkify(file, file);}
+    if (file1 && file2) {
+    	var str = "";
+    	str = linkify(file1, file1);
+    	str += "<br>";
+    	str += linkify(file2, file2);
+    	return str;
+    }
+    return "n/a";
 }
 
 
