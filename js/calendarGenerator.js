@@ -196,15 +196,8 @@ function getLabString(lab, assignOnDate) {
 
 
 function getFileString(file) {
-    if (file) {return linkify(file, file);}
-    if (file1 && file2) {
-    	var str = "";
-    	str = linkify(file1, file1);
-    	str += "<br>";
-    	str += linkify(file2, file2);
-    	return str;
-    }
-    return "n/a";
+    if (!file) { return "n/a"; }
+    return linkify(file, file);
 }
 
 
@@ -291,7 +284,17 @@ function printLabs(opts) {
             document.write("<td></td>");
         } else {
             document.write("<td>" + getLabString(calendar[i].lab, calendar[i].date) + "</td>");
-            document.write("<td>" + getFileString(calendar[i].lab.file) + "</td>");
+            if (calendar[i].lab.file) {
+            	document.write("<td>" + getFileString(calendar[i].lab.file) + "</td>");
+            } else if (calendar[i].lab.file1) {
+            	document.write("<td>");
+            	document.write(getFileString(calendar[i].lab.file1);
+            	if (calendar[i].lab.file2) {
+            		document.write("<br>");
+             		document.write(getFileString(calendar[i].lab.file2);
+           		}
+            	document.write("</td>");            
+            }
         }
         document.write("</tr>");
     }
