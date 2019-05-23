@@ -3,7 +3,7 @@ layout: default
 title: "Tic Tac Toe"
 ---
 
-**Due**: Wednesday, May 29th by 11:59 PM
+**Due**: Thursday, May 30th by 11:59 PM
 
 # Getting Started
 

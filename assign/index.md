@@ -9,7 +9,7 @@ Assignments are due by 11:59 PM on the due date.
 
 > Assignment | File | Due
 > ---------- | ---- | ---
-> [Assignment 1: Tic Tac Toe](assign01.html) | [CS201\_Assign01.zip](CS201_Assign01.zip) | Wednesday, May 29th
+> [Assignment 1: Tic Tac Toe](assign01.html) | [CS201\_Assign01.zip](CS201_Assign01.zip) | Thursday, May 30th
 
 
 <!--
