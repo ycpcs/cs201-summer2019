@@ -7,14 +7,9 @@ courseInfo.classPeriods = [
 		lab: new TripleNumberedLab(1, "Dog Years", 2, "Coins class", 3, "Arrays")
 	},
 	{
-		topic: new Topic("Lecture 4: File I/O, Exceptions", "lectures/lecture04.html"),
+		topic: new DoubleTopic("Lecture 4: File I/O, Exceptions", "lectures/lecture04.html","Lecture 5: Exceptions", "lectures/lecture05.html"),
 		reading: "2.5&ndash;2.6",
-		lab: new NumberedLab(4, "Text File I/O")
-	},
-	{
-		topic: new Topic("Lecture 5: Exceptions", "lectures/lecture05.html"),
-		reading: "2.5",
-		lab: new NumberedLab(5, "Exceptions")
+		lab: new DoubleNumberedLab(4, "Text File I/O", 5, "Exceptions")
 	},
 	{
 		topic: new Topic("Lecture 6: GUIs", "lectures/lecture06.html"),
