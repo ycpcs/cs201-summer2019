@@ -28,6 +28,7 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 * **May 15** &mdash; Welcome back!
 * **May 27 - NO CLASS, MEMORIAL DAY**
 * **May 30** &mdash; [Assignment 1](assign/assign01.html) is due.
+* **June 6** &mdash; [Assignment 2](assign/assign02.html) is due.
 
 
 
