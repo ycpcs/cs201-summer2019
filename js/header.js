@@ -56,9 +56,9 @@ function FinalExamDay(section, date) {
 // Create objects for Labs and Assignments with
 // the following functions.
 ////////////////////////////////////////////////////
-function Lab(title, link) {
-    this.title = title;
-    this.link = link;
+function Lab(title1, link1) {
+    this.title1 = title1;
+    this.link1 = link1;
 }
 
 // Useful for a numbered lab with a filename following the standard naming

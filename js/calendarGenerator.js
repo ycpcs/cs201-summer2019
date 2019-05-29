@@ -184,7 +184,11 @@ function getLabString(lab, assignOnDate) {
     var today = new Date();
 
     if (isLab(lab) && (assignOnDate.getTime() < today.getTime() || PREPOPULATE)) {
-    	if (lab instanceof NumberedLab) {
+    	if (lab instanceof Lab) {
+    		str = lab.title1;
+    	}else if (lab instanceof NumberedLabNoFile) {
+    		str = linkify(lab.title1, lab.link1);
+    	} else if (lab instanceof NumberedLab) {
         	str = linkify(lab.title1, lab.link1);
     	} else if (lab instanceof DoubleNumberedLab) {
         	str = linkify(lab.title1, lab.link1);
@@ -292,6 +296,9 @@ function printLabs(opts) {
         } else {
             document.write("<td>" + getLabString(calendar[i].lab, calendar[i].date) + "</td>");
             document.write("<td>");
+            if (!calendar[i].lab.file1) {
+            	document.write("n/a");
+            }
             if (calendar[i].lab.file1) {
             	document.write(getFileString(calendar[i].lab.file1));
             } 
@@ -303,6 +310,7 @@ function printLabs(opts) {
             	document.write("<br>");
              	document.write(getFileString(calendar[i].lab.file3));
            	}
+           	
             document.write("</td>");
         }
         document.write("</tr>");

@@ -16,18 +16,16 @@ courseInfo.classPeriods = [
 		lab: new NumberedLab(6, "GUIs")
 	},
 	{
-		topic: new Topic("Lecture 7: ArrayList, Inheritance", "lectures/lecture07.html"),
-		reading: "4.1&ndash;4.2",
-		lab: new NumberedLab(7, "Inheritance and Polymorphism")
-	},
-	{
-		topic: new Topic("Lecture 8: Inheritance (continued)", "lectures/lecture08.html"),
-		reading: "4.3&ndash;4.4",
-		lab: new NumberedLab(8, "Inheriting Fields and Methods")
+		topic: new DoubleTopic("Lecture 7: ArrayList, Inheritance", "lectures/lecture07.html", "Lecture 8: Inheritance (continued)", "lectures/lecture08.html"),
+		reading: "4.1&ndash;4.2 <br> 4.3&ndash;4.4",
+		lab: new DoubleNumberedLab(7, "Inheritance and Polymorphism", 8, "Inheriting Fields and Methods")
 	},
 	{
 		topic: new Topic("Lecture 9: Type casts, instanceof, Object class, Interfaces", "lectures/lecture09.html"),
 		lab: new NumberedLab(9, "Comparable, Sorting")
+	},
+	{
+		topic: new Topic("** Exam 1", "")
 	},
 	{
 		topic: new Topic("Lecture 10: Generic methods and classes", "lectures/lecture10.html"),
@@ -35,22 +33,14 @@ courseInfo.classPeriods = [
 		lab: new NumberedLab(10, "Using Generic Containers and Algorithms")
 	},
 	{
-		topic: new Topic("** Exam 1", "")
-	},
-	{
 		topic: new Topic("Lecture 11: Generic methods, functors", "lectures/lecture11.html"),
 		reading: "4.8",
 		lab: new NumberedLab(11, "Functors")
 	},
 	{
-		topic: new Topic("Lecture 12: Analysis of Algorithms", "lectures/lecture12.html"),
-		reading: "5.1&ndash;5.3",
-		lab: new NumberedLab(12, "Benchmarking ArrayList")
-	},
-	{
-		topic: new Topic("Lecture 13: Big-O", "lectures/lecture13.html"),
-		reading: "5.4&ndash;5.8",
-		lab: new NumberedLabNoFile(13, "Big-O")
+		topic: new DoubleTopic("Lecture 12: Analysis of Algorithms", "lectures/lecture12.html", "Lecture 13: Big-O", "lectures/lecture13.html"),
+		reading: "5.1&ndash;5.3 <br> 5.4&ndash;5.8",
+		lab: new DoubleNumberedLab(12, "Benchmarking ArrayList", 13, "Big-O")
 	},
 	{
 		topic: new Topic("Lecture 14: Collections, Iterators", "lectures/lecture14.html"),
@@ -75,14 +65,9 @@ courseInfo.classPeriods = [
 		lab: new NumberedLab(17, "Parallel Estimation of π")
 	},
 	{
-		topic: new Topic("Lecture 18: Stacks and Queues", "lectures/lecture18.html"),
-		reading: "6.6",
-		lab: new NumberedLab(18, "Palindromes")
-	},
-	{
-		topic: new Topic("Lecture 19: Sets and Maps", "lectures/lecture19.html"),
-		reading: "6.7-6.8",
-		lab: new NumberedLab(19, "Word Count")
+		topic: new DoubleTopic("Lecture 18: Stacks and Queues", "lectures/lecture18.html", "Lecture 19: Sets and Maps", "lectures/lecture19.html"),
+		reading: "6.6 <br> 6.7-6.8",
+		lab: new DoubleNumberedLab(18, "Palindromes", 19, "Word Count")
 	},
 	{
 		topic: new Topic("Lecture 20: Recursion", "lectures/lecture20.html"),
@@ -108,12 +93,11 @@ courseInfo.classPeriods = [
 		topic: new Topic("** Exam 3", "")
 	},
 	{
-		topic: new Topic("Lecture 24: Relational Databases and SQL", "lectures/lecture24.html"),
-		lab: new NumberedLab(23, "Relational Databases and SQL")
+		topic: new DoubleTopic("Lecture 24: Relational Databases and SQL", "lectures/lecture24.html", "Lecture 25: Database Applications and JDBC", "lectures/lecture25.html"),
+		lab: new DoubleNumberedLab(23, "Relational Databases and SQL", 24, "JDBC")
 	},
 	{
-		topic: new Topic("Lecture 25: Database Applications and JDBC", "lectures/lecture25.html"),
-		lab: new NumberedLab(24, "JDBC")
+		topic: new Topic("** Final Exam", "")
 	},
 ];
 
