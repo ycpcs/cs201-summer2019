@@ -25,12 +25,12 @@ courseInfo.classPeriods = [
 		lab: new NumberedLab(9, "Comparable, Sorting")
 	},
 	{
-		topic: new Topic("** Exam 1", "")
-	},
-	{
 		topic: new Topic("Lecture 10: Generic methods and classes", "lectures/lecture10.html"),
 		reading: "4.5&ndash;4.7",
 		lab: new NumberedLab(10, "Using Generic Containers and Algorithms")
+	},
+	{
+		topic: new Topic("** Exam 1", "")
 	},
 	{
 		topic: new Topic("Lecture 11: Generic methods, functors", "lectures/lecture11.html"),
