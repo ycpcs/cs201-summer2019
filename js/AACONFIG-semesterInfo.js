@@ -11,5 +11,6 @@ var semesterInfo = {
     vacationDates: [
         new VacationDays("Memorial Day",    new Date("05/27/2019"),  new Date("05/27/2019")),
         new VacationDays("4th of July",    new Date("07/01/2019"), new Date("07/05/2019")),
+        new VacationDays("No class",    new Date("07/15/2019"), new Date("07/19/2019")),
     ]
 };
