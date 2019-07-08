@@ -58,8 +58,8 @@ courseInfo.classPeriods = [
 		lab: new NumberedLab(16, "List Reversal")
 	},
 	{
-		topic: new TripleDoubleTopic("Lecture 17: Parallel Programming with Threads", "lectures/lecture17.html", "Lecture 18: Stacks and Queues", "lectures/lecture18.html", "Lecture 19: Sets and Maps", "lectures/lecture19.html"),
-		reading: "<br/> 6.6 <br> 6.7-6.8",
+		topic: new TripleTopic("Lecture 17: Parallel Programming with Threads", "lectures/lecture17.html", "Lecture 18: Stacks and Queues", "lectures/lecture18.html", "Lecture 19: Sets and Maps", "lectures/lecture19.html"),
+		reading: "6.6 <br> 6.7-6.8",
 		lab: new TripleNumberedLab(17, "Parallel Estimation of π", 18, "Palindromes", 19, "Word Count")
 	},
 	{

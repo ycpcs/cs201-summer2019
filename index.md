@@ -33,8 +33,6 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 * **June 18** &mdash; [Assignment 3](assign/assign03.html) is due.
 * **July 1,3 - NO CLASS 4th of July Break**
 * **July 11** &mdash; [Assignment 4](assign/assign04.html) Milestone 1 is due.
-* **July 12 - Exam 2**
-* **July 15, 17 - NO CLASS**
 * **July 22** &mdash; [Assignment 4](assign/assign04.html) Milestione 2 is due.
 
 
