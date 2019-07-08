@@ -53,21 +53,14 @@ courseInfo.classPeriods = [
 		lab: new NumberedLab(15, "Generic Algorithms")
 	},
 	{
-		topic: new Topic("Lecture 16: Lists", "lectures/lecture16.html"),
+		topic: new DoubleTopic("Lecture 16: Lists", "lectures/lecture16.html", "** Exam 2",""),
 		reading: "6.5",
 		lab: new NumberedLab(16, "List Reversal")
 	},
 	{
-		topic: new Topic("** Exam 2", "")
-	},
-	{
-		topic: new Topic("Lecture 17: Parallel Programming with Threads", "lectures/lecture17.html"),
-		lab: new NumberedLab(17, "Parallel Estimation of π")
-	},
-	{
-		topic: new DoubleTopic("Lecture 18: Stacks and Queues", "lectures/lecture18.html", "Lecture 19: Sets and Maps", "lectures/lecture19.html"),
-		reading: "6.6 <br> 6.7-6.8",
-		lab: new DoubleNumberedLab(18, "Palindromes", 19, "Word Count")
+		topic: new TripleDoubleTopic("Lecture 17: Parallel Programming with Threads", "lectures/lecture17.html", "Lecture 18: Stacks and Queues", "lectures/lecture18.html", "Lecture 19: Sets and Maps", "lectures/lecture19.html"),
+		reading: "<br/> 6.6 <br> 6.7-6.8",
+		lab: new TripleNumberedLab(17, "Parallel Estimation of π", 18, "Palindromes", 19, "Word Count")
 	},
 	{
 		topic: new Topic("Lecture 20: Recursion", "lectures/lecture20.html"),
