@@ -13,6 +13,7 @@ Assignments are due by 11:59 PM on the due date.
 > [Assignment 2: Disk class](assign02.html) | [CS201\_Assign02.zip](CS201_Assign02.zip) | Thursday, June 6th
 > [Assignment 3: Disks Game](assign03.html) | n/a | Wednesday, June 18th
 > [Assignment 4: Klondike](assign04.html) | [CS201\_Assign04.zip](CS201_Assign04.zip) | MS1 due Thursday, July 11th<br>MS2 due Wednesday, July 24th
+> [Assignment 5: Mandelbrot Set Renderer](assign05.html) | [CS201\_Assign05.zip](CS201_Assign05.zip) | Friday, Aug 9th
 
 
 <!--
